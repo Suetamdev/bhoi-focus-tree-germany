@@ -6503,7 +6503,7 @@ country_event = {
 
 		FROM = { # FROM Rejects
 			country_event = { 
-				id = wuw_GER_diplomacy.118
+				id = wuw_GER_diplomacy.119
 				hours = 5 
 				random_hours = 6
 			}
@@ -22549,13 +22549,13 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			set_country_flag = GER_inner_circle_event_pending_flag
-			if = { #Then Speer
+			if = { #Speer
 				limit = {
 					has_shine_effect_on_focus = GER_plenipotentiary_of_armaments
 				}
 				set_variable = { GER_intrigue_character = 2 }
 			}			
-			else_if = { #Last Todt
+			else_if = { #Todt
 				limit = {
 					has_shine_effect_on_focus = GER_autonomous_organization_todt
 				}
